@@ -9,14 +9,10 @@ How to use
 
 2. Create ``config/dropbox_key.yml`` file. Please add your App key and App secret like below.
 
-``yml
-    key: "XXXXXXXXXXXXXXXX"
-    secret: "XXXXXXXXXXXXXXXX"
-``
+      key: "XXXXXXXXXXXXXXXX"
+      secret: "XXXXXXXXXXXXXXXX"
 
 3. Bundle install and start up the server
 
-``bash
-    $ bundle install
-    $ rails s
-``
+      $ bundle install
+      $ rails s
