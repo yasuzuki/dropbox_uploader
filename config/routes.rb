@@ -1,4 +1,8 @@
 DropboxUploader::Application.routes.draw do
+  root :to => 'dropbox#authorize'
+  match 'dropbox/authorize', :to => 'dropbox#authorize'
+  match 'dropbox/upload', :to => 'dropbox#upload'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
